@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 200px;
+    font-size: 150px;
+    margin-top: 20px;
 }
 
 .navbar {
@@ -121,21 +122,27 @@
 
 .page-wrapper {
   margin: 15px;
+  align-items: center;
 }
 
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .row1 {
+  display: flex;
   justify-content: center;
 }
 
 .row2 {
   display: flex;
+  flex-direction: row;
+
 }
 
 .column {
@@ -146,7 +153,10 @@
 }
 
 .column-left {
+  display: flex;
   height: 100px;
+  flex-direction: column;
+  
 }
 
 .column-right {
@@ -157,23 +167,13 @@
   display: flex;
   flex-direction: column;
   flex-basis: auto;
+  align-items: center;
 }
 
 .page-wrapper ~ img {
   align-items: center;
 }
 
-.c1 {
-  
-}
-
-.c2 {
-
-}
-
-.c3 {
-
-}
 @media screen and (min-width: 800px) {
   .column {
     flex: 1
