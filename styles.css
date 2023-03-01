@@ -7,6 +7,20 @@
     margin-bottom: 70px;
     clear: both;
 }
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+
 
 .header {
     display: flex;
@@ -199,8 +213,9 @@ article {
   flex: 1;
 }
 
-.footer {
+footer {
   display: flex;
+  position: fixed;
   background-color: red;
   top: 150;
   bottom: 0;
@@ -209,19 +224,21 @@ article {
   height: 50px;
   width: 100%;
   border-top: 1px solid white;
-  margin-bottom: 0px;
+  margin-bottom: auto;
 }
 
-.footer :left {
+.footer-left {
+  display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   
 }
 
-.footer :right {
-  text-align: center;
+.footer-right {
+  display: flex;
+  text-align: right;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 
