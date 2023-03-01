@@ -114,6 +114,7 @@
 
 .article {
     font-size: 3rem;
+    flex: 1;
 }
 
 .section {
