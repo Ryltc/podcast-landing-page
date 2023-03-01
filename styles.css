@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
+    min-height: 100px;
+    margin-bottom: 70px;
+    clear: both;
 }
 
 .header {
@@ -16,21 +19,19 @@
 
 .navbar {
     background: blueviolet;
-    height: 80px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1;
 }
 
 .navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     margin-right: auto;
@@ -40,7 +41,7 @@
 
 }
 
-#navbar__logo {
+/*#navbar__logo {
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
@@ -51,7 +52,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-  }
+  }*/
 
   .fa-gem {
     margin-right: 0.5rem;
@@ -66,6 +67,7 @@
 
 .navbar__item {
     height: 100px;
+    width: 200px;
 }
 
 .navbar__links {
@@ -112,13 +114,20 @@
     transition: all 0.3s ease;
 }
 
+.main {
+  display: flex;
+  z-index: 999;
+}
+
 .article {
     font-size: 3rem;
     flex: 1;
+    z-index: 999;
 }
 
 .section {
   display: flex;
+  z-index: 999;
 }
 
 .page-wrapper {
@@ -138,6 +147,7 @@
 .row1 {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .row2 {
@@ -188,4 +198,30 @@
 article {
   flex: 1;
 }
+
+.footer {
+  display: flex;
+  background-color: red;
+  top: 150;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid white;
+  margin-bottom: 0px;
+}
+
+.footer :left {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.footer :right {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 
