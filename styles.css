@@ -222,7 +222,7 @@ article {
 
 footer {
   position: sticky;
-  display: flex;
+  display: inline-block;
   width: 100%;
   font-size: 1.8rem;
   text-decoration-color: #fff;
