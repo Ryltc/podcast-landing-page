@@ -20,7 +20,9 @@ p {
   text-align: center;
 }
 
-
+main {
+  padding-bottom: 5px;
+}
 
 .header {
     display: flex;
@@ -175,17 +177,22 @@ p {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  margin-bottom: 0px;
 }
 
 .column-left {
   display: flex;
+  margin-top: 0;
   height: 100px;
   flex-direction: column;
   
 }
 
 .column-right {
+  display: flex;
+  margin-top: 0;
   height: 100px;
+  flex-direction: column;
 }
 
 .column-center {
@@ -214,31 +221,26 @@ article {
 }
 
 footer {
+  position: sticky;
   display: flex;
-  position: fixed;
-  background-color: red;
-  top: 150;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50px;
   width: 100%;
-  border-top: 1px solid white;
-  margin-bottom: auto;
+  font-size: 1.8rem;
+  text-decoration-color: #fff;
+  line-height: 1;
+  bottom: 0;
+  top: 0;
 }
 
-.footer-left {
+footer-left {
   display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   
 }
 
-.footer-right {
+footer-right {
   display: flex;
   text-align: right;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-
