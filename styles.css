@@ -1,11 +1,11 @@
 * {
+    position: relative;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     min-height: 100px;
     margin-bottom: 70px;
-    clear: both;
 }
 h1 {
     font-size: 4rem;
@@ -147,8 +147,15 @@ main {
 }
 
 .page-wrapper {
-  margin: 15px;
+  margin: 0px;
   align-items: center;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -75px;
 }
 
 .row {
@@ -167,6 +174,12 @@ main {
 }
 
 .row2 {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.row3 {
   display: flex;
   flex-direction: row;
 
@@ -220,25 +233,22 @@ article {
   flex: 1;
 }
 
-footer {
-  position: sticky;
-  display: inline-block;
-  width: 100%;
-  font-size: 1.8rem;
-  text-decoration-color: #fff;
-  line-height: 1;
+.footer {
+  background-color: red;
   bottom: 0;
-  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid white;
 }
 
-footer-left {
+.footer-left {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
   
 }
 
-footer-right {
+.footer-right {
   display: flex;
   text-align: right;
   margin-top: 10px;
