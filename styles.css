@@ -142,13 +142,15 @@ main {
 }
 
 .section {
-  display: flex;
   z-index: 999;
 }
 
 .page-wrapper {
+  display: flex;
   margin: 0px;
   align-items: center;
+  flex-wrap: nowrap;
+
 }
 
 .wrap {
@@ -168,7 +170,7 @@ main {
 }
 
 .row1 {
-  display: flex;
+
   justify-content: center;
   flex-direction: row;
 }
@@ -176,13 +178,22 @@ main {
 .row2 {
   display: flex;
   flex-direction: row;
-
 }
 
 .row3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-basis: 50%;
+}
 
+.row4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row5 {
+  display: flex;
+  flex-direction: row;
 }
 
 .column {
